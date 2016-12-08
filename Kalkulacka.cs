@@ -9,13 +9,16 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            //Zadání čísel
             Console.Write("Zadej 1. číslo: ");
             int x1 = Convert.ToInt32(Console.ReadLine());
             Console.Write("Zadej 2. číslo: ");
             int x2 = Convert.ToInt32(Console.ReadLine());
+            //Zadání operace
             Console.Write("Zadej číslo operace:\n\t1 - součet\n\t2 - rozdíl\n\t3 - součin\nVybraná operace: ");
             int operace = Convert.ToInt32(Console.ReadLine());
 
+            //Výkon operací a jejich výstup
             if (operace == 1)
             {
                 int soucet = x1 + x2;
@@ -30,6 +33,10 @@ namespace ConsoleApplication1
             {
                 int soucin = x1 * x2;
                 Console.WriteLine("Součin: " + soucin);
+            }
+            else //Ošetření při zadání jiné hodnoty operace
+            {
+                Console.WriteLine("Nastala chyba, zkus to znova.");
             }
             Console.ReadKey();
         }
