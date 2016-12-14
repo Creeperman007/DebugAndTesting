@@ -10,12 +10,12 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             int pocet = 0;
-            ostrava:
-            if (pocet < 3)
+            ostrava: //označení místa pro navrácení
+            if (pocet < 3) //kontrola, zda číslo nedosáhlo hodnoty 3
             {
                 Console.Write("Zadej číslo: ");
                 int cislo = Convert.ToInt32(Console.ReadLine());
-                if (cislo > 0)
+                if (cislo > 0) //kontrola, zda je číslo kladné
                 {
                     Console.WriteLine("\t" + cislo);
                     pocet = pocet + 1;
@@ -24,7 +24,7 @@ namespace ConsoleApplication1
                 {
                     Console.WriteLine("\tTohle není kladné číslo!");
                 }
-                goto ostrava;
+                goto ostrava; //návrat na začátek
             }
             Console.ReadKey();
         }
