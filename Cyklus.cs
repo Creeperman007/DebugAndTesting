@@ -17,7 +17,7 @@ namespace ConsoleApplication1
                 if (cislo > 0)
                 {
                     Console.WriteLine("\t" + cislo);
-                    pocet++;
+                    pocet++; //proměnná++ přičítá číslo 1
                 }
                 else
                 {
