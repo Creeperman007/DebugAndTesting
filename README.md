@@ -9,7 +9,7 @@ Nevím, proč se to jmenuje *Debug and testing,* když tu dávám kódy z progra
 [Deleni.cs](Deleni.cs)<br>
 [Nejvetsi.cs](Nejvetsi.cs)
 ###14. 12. 2016
-[Cyskul.cs](Cyklus.cs)<br>
-[Cyklus.Sulir.cs](Cyklus.Sulir.cs)
+[Cyklus.Sulir.cs](Cyklus.Sulir.cs)<br>
+[Cyklus.cs](Cyklus.cs)
 ###7. 12. 2016
 [Kalkulacka.cs](Kalkulacka.cs)
