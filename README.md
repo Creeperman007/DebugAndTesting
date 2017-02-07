@@ -1,5 +1,9 @@
 # Debug and testing
 Nevím, proč se to jmenuje *Debug and testing,* když tu dávám kódy z programování :hushed:
+###25. 1. 2017
+####Teorie
+[Deleni.nove.cs](CSharp/Deleni.nove.cs)<br>
+[NahodneCislo.cs](CSharp/NahodneCislo.cs)
 ###18. 1. 2017
 [Test.verze3.cs](CSharp/Test.verze3.cs)<br>
 [Test.verze4.cs](CSharp/Test.verze4.cs)
