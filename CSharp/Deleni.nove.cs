@@ -26,7 +26,7 @@ namespace Deleni
             //zobrazení výsledku
             Console.WriteLine("podíl: " + Podil + "\nzbytek: " + zbytek);
 
-            Console.ReadLine();
+            Console.ReadKey();
              
         }
     }
