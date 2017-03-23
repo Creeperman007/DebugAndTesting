@@ -1,5 +1,8 @@
 # Debug and testing
 Nevím, proč se to jmenuje *Debug and testing,* když tu dávám kódy z programování :hushed:
+### 22. 3. 2017
+[Cykly.Tip.cs](CSharp/Cykly.Tip.cs)<br>
+[Cykly.VypisJmen.cs](CSharp/Cykly.VypisJmen.cs)
 ### 15. 3. 2017
 [CyklyWhile.cs](CSharp/CyklyWhile.cs)
 ### 15. 2. 2017
